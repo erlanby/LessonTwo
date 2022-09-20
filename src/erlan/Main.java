@@ -27,7 +27,13 @@ public class Main {
 
         // writeFile(allCars);
         System.out.println(fileReader());
+
+        Autobaza autobaza = new Autobaza(1, "Manas prospect Mira");
+        System.out.println(autobaza);
     }
+
+
+
 
     private static void writeFile(String Object){
         Path write = Paths.get(String.valueOf(WRITE_PATH));
